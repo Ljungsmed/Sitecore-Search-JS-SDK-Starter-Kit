@@ -136,7 +136,7 @@ export const PreviewSearchNewComponent = ({ defaultItemsPerPage = 8 }) => {
                             </ArticleCardStyled.ImageWrapper>
                             <ArticleCardStyled.Name>
                               <HighlightComponent
-                                text={getDescription(article, 'title')}
+                                text={getDescription(article, 'name')}
                                 preSeparator={HIGHLIGHT_DATA.pre}
                                 postSeparator={HIGHLIGHT_DATA.post}
                                 highlightElement={HIGHLIGHT_DATA.highlightTag}
